@@ -1,5 +1,5 @@
-num = int(input())
+a = int(input())
+array = [int(i) for i in input().split()]
+b = int(input())
 
-in_num = list(map(int, input().split()))
-search_num = int(input())
-print(in_num.count(search_num))
+print(array.count(b))
